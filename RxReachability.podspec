@@ -31,6 +31,6 @@ Pod::Spec.new do |s|
 
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'ReachabilitySwift', '~> 3'
-  s.dependency 'RxSwift', '~> 3'
-  s.dependency 'RxCocoa', '~> 3'
+  s.dependency 'RxSwift', '>= 4.0.0-beta.1'
+  s.dependency 'RxCocoa', '>= 4.0.0-beta.1'
 end
